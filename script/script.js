@@ -105,7 +105,7 @@ header.style.alignItems = 'center';
 header.style.flexDirection = 'column';
 header.style.width = '100%';
 header.style.minHeight = '100vh';
-header.style.padding = f_1 + ' 0';
+header.style.padding = f_1 + ' ' + f_2;
 header.style.boxSizing = 'border-box';
 //----------------
 p2.style.fontFamily = '"Mulish", Sans-serif';
@@ -130,6 +130,7 @@ nameInput.style.border = 'none';
 nameInput.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 nameInput.style.textAlign = 'center';
 nameInput.style.boxSizing = 'border-box';
+nameInput.style.fontSize = f_8_5;
 //----------------
 p5.style.marginTop = f_7;
 p5.style.color = 'rgba(255, 40, 10, 1)';
@@ -180,6 +181,7 @@ pinInput1.style.border = 'none';
 pinInput1.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput1.style.textAlign = 'center';
 pinInput1.style.boxSizing = 'border-box';
+pinInput1.style.fontSize = f_8_5;
 //
 pinInput2.setAttribute('type', 'number');
 pinInput2.style.width = f_6;
@@ -188,6 +190,7 @@ pinInput2.style.border = 'none';
 pinInput2.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput2.style.textAlign = 'center';
 pinInput2.style.boxSizing = 'border-box';
+pinInput2.style.fontSize = f_8_5;
 //
 pinInput3.setAttribute('type', 'number');
 pinInput3.style.width = f_6;
@@ -196,6 +199,7 @@ pinInput3.style.border = 'none';
 pinInput3.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput3.style.textAlign = 'center';
 pinInput3.style.boxSizing = 'border-box';
+pinInput3.style.fontSize = f_8_5;
 //
 pinInput4.setAttribute('type', 'number');
 pinInput4.style.width = f_6;
@@ -204,6 +208,7 @@ pinInput4.style.border = 'none';
 pinInput4.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput4.style.textAlign = 'center';
 pinInput4.style.boxSizing = 'border-box';
+pinInput4.style.fontSize = f_8_5;
 //
 pinInput5.setAttribute('type', 'number');
 pinInput5.style.width = f_6;
@@ -212,6 +217,7 @@ pinInput5.style.border = 'none';
 pinInput5.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput5.style.textAlign = 'center';
 pinInput5.style.boxSizing = 'border-box';
+pinInput5.style.fontSize = f_8_5;
 //
 pinInput6.setAttribute('type', 'number');
 pinInput6.style.width = f_6;
@@ -220,6 +226,7 @@ pinInput6.style.border = 'none';
 pinInput6.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput6.style.textAlign = 'center';
 pinInput6.style.boxSizing = 'border-box';
+pinInput6.style.fontSize = f_8_5;
 //
 pinInput7.setAttribute('type', 'number');
 pinInput7.style.width = f_6;
@@ -228,6 +235,7 @@ pinInput7.style.border = 'none';
 pinInput7.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput7.style.textAlign = 'center';
 pinInput7.style.boxSizing = 'border-box';
+pinInput7.style.fontSize = f_8_5;
 //
 pinInput8.setAttribute('type', 'number');
 pinInput8.style.width = f_6;
@@ -236,6 +244,7 @@ pinInput8.style.border = 'none';
 pinInput8.style.backgroundColor = 'rgba(230, 230, 230, 1)';
 pinInput8.style.textAlign = 'center';
 pinInput8.style.boxSizing = 'border-box';
+pinInput8.style.fontSize = f_8_5;
 //----------------
 div5.style.display = 'flex';
 div5.style.justifyContent = 'center';

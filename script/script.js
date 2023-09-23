@@ -25,6 +25,11 @@ document.body.style.display = 'flex';
 document.body.style.flexDirection = 'column';
 document.body.style.justifyContent = 'center';
 document.body.style.alignItems = 'center';
+//----
+const meta = document.createElement('meta');
+document.head.appendChild(meta);
+meta.setAttribute('name', 'theme-color');
+meta.setAttribute('content', 'rgba(0, 180, 255, 1)');
 //variabel createElement
 const header = document.createElement('header');
 const h1 = document.createElement('h1');
@@ -352,9 +357,6 @@ mulai.addEventListener("click", function() {
     nameInput.style.backgroundColor = 'rgba(255, 40, 10, .2)';
     nameInput.style.marginTop = f_9_5;
     p5.style.display = 'inline';
-    const meta = document.createElement('meta');
-    document.head.appendChild(meta);
-    meta.setAttribute('name', 'theme-color');
     meta.setAttribute('content', 'rgba(255, 40, 10, 1)');
     window.navigator.vibrate(1500);
     setTimeout(function () {
@@ -362,8 +364,7 @@ mulai.addEventListener("click", function() {
       nameInput.style.backgroundColor = 'rgba(230, 230, 230, 1)';
       nameInput.style.marginTop = f_7;
       p5.style.display = 'none';
-      meta.removeAttribute('name');
-      meta.removeAttribute('content');
+      meta.setAttribute('content', 'rgba(0, 180, 255, 1)');
       mulai.style.backgroundColor = 'rgba(0, 180, 255, 1)';
       mulai.style.boxShadow = '0 10px 10px rgba(0, 180, 255, .4)';
     }, 5000);
